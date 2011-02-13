@@ -1,0 +1,2385 @@
+
+=====
+===== LOGGING STARTED Tue Dec 14 08:33:24 PST 2010
+=====
+Exec: /home/hisham/Projects/Erlang/b4/erts-5.8.1/bin/erlexec -boot /home/hisham/Projects/Erlang/b4/releases/2.0.3/nitrogen -embedded  -config /home/hisham/Projects/Erlang/b4/etc/app.config -config /home/hisham/Projects/Erlang/b4/etc/mochiweb.config -args_file /home/hisham/Projects/Erlang/b4/etc/vm.args -- console
+Root: /home/hisham/Projects/Erlang/b4
+{error_logger,{{2010,12,14},{8,33,25}},"Protocol: ~p: register error: ~p~n",["inet_tcp",{{badmatch,{error,duplicate_name}},[{inet_tcp_dist,listen,1},{net_kernel,start_protos,4},{net_kernel,start_protos,3},{net_kernel,init_node,2},{net_kernel,init,1},{gen_server,init_it,6},{proc_lib,init_p_do_apply,3}]}]}
+{error_logger,{{2010,12,14},{8,33,25}},crash_report,[[{initial_call,{net_kernel,init,['Argument__1']}},{pid,<0.20.0>},{registered_name,[]},{error_info,{exit,{error,badarg},[{gen_server,init_it,6},{proc_lib,init_p_do_apply,3}]}},{ancestors,[net_sup,kernel_sup,<0.10.0>]},{messages,[]},{links,[#Port<0.343>,<0.17.0>]},{dictionary,[{longnames,true}]},{trap_exit,true},{status,running},{heap_size,610},{stack_size,24},{reductions,460}],[]]}
+{error_logger,{{2010,12,14},{8,33,25}},supervisor_report,[{supervisor,{local,net_sup}},{errorContext,start_error},{reason,{'EXIT',nodistribution}},{offender,[{pid,undefined},{name,net_kernel},{mfargs,{net_kernel,start_link,[['nitrogen@127.0.0.1',longnames]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]}]}
+{error_logger,{{2010,12,14},{8,33,25}},supervisor_report,[{supervisor,{local,kernel_sup}},{errorContext,start_error},{reason,shutdown},{offender,[{pid,undefined},{name,net_sup},{mfargs,{erl_distribution,start_link,[]}},{restart_type,permanent},{shutdown,infinity},{child_type,supervisor}]}]}
+{error_logger,{{2010,12,14},{8,33,25}},std_info,[{application,kernel},{exited,{shutdown,{kernel,start,[normal,[]]}}},{type,permanent}]}
+{"Kernel pid terminated",application_controller,"{application_start_failure,kernel,{shutdown,{kernel,start,[normal,[]]}}}"}
+
+Crash dump was written to: erl_crash.dump
+Kernel pid terminated (application_controller) ({application_start_failure,kernel,{shutdown,{kernel,start,[normal,[]]}}})
+
+=====
+===== LOGGING STARTED Tue Dec 14 08:33:59 PST 2010
+=====
+Exec: /home/hisham/Projects/Erlang/b4/erts-5.8.1/bin/erlexec -boot /home/hisham/Projects/Erlang/b4/releases/2.0.3/nitrogen -embedded  -config /home/hisham/Projects/Erlang/b4/etc/app.config -config /home/hisham/Projects/Erlang/b4/etc/mochiweb.config -args_file /home/hisham/Projects/Erlang/b4/etc/vm.args -- console
+Root: /home/hisham/Projects/Erlang/b4
+{error_logger,{{2010,12,14},{8,33,59}},"Protocol: ~p: register error: ~p~n",["inet_tcp",{{badmatch,{error,duplicate_name}},[{inet_tcp_dist,listen,1},{net_kernel,start_protos,4},{net_kernel,start_protos,3},{net_kernel,init_node,2},{net_kernel,init,1},{gen_server,init_it,6},{proc_lib,init_p_do_apply,3}]}]}
+{error_logger,{{2010,12,14},{8,33,59}},crash_report,[[{initial_call,{net_kernel,init,['Argument__1']}},{pid,<0.20.0>},{registered_name,[]},{error_info,{exit,{error,badarg},[{gen_server,init_it,6},{proc_lib,init_p_do_apply,3}]}},{ancestors,[net_sup,kernel_sup,<0.10.0>]},{messages,[]},{links,[#Port<0.343>,<0.17.0>]},{dictionary,[{longnames,true}]},{trap_exit,true},{status,running},{heap_size,610},{stack_size,24},{reductions,460}],[]]}
+{error_logger,{{2010,12,14},{8,33,59}},supervisor_report,[{supervisor,{local,net_sup}},{errorContext,start_error},{reason,{'EXIT',nodistribution}},{offender,[{pid,undefined},{name,net_kernel},{mfargs,{net_kernel,start_link,[['nitrogen@127.0.0.1',longnames]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]}]}
+{error_logger,{{2010,12,14},{8,33,59}},supervisor_report,[{supervisor,{local,kernel_sup}},{errorContext,start_error},{reason,shutdown},{offender,[{pid,undefined},{name,net_sup},{mfargs,{erl_distribution,start_link,[]}},{restart_type,permanent},{shutdown,infinity},{child_type,supervisor}]}]}
+{error_logger,{{2010,12,14},{8,33,59}},std_info,[{application,kernel},{exited,{shutdown,{kernel,start,[normal,[]]}}},{type,permanent}]}
+{"Kernel pid terminated",application_controller,"{application_start_failure,kernel,{shutdown,{kernel,start,[normal,[]]}}}"}
+
+Crash dump was written to: erl_crash.dump
+Kernel pid terminated (application_controller) ({application_start_failure,kernel,{shutdown,{kernel,start,[normal,[]]}}})
+
+=====
+===== LOGGING STARTED Tue Dec 14 08:35:41 PST 2010
+=====
+Exec: /home/hisham/Projects/Erlang/b4/erts-5.8.1/bin/erlexec -boot /home/hisham/Projects/Erlang/b4/releases/2.0.3/nitrogen -embedded  -config /home/hisham/Projects/Erlang/b4/etc/app.config -config /home/hisham/Projects/Erlang/b4/etc/mochiweb.config -args_file /home/hisham/Projects/Erlang/b4/etc/vm.args -- console
+Root: /home/hisham/Projects/Erlang/b4
+Erlang R14B (erts-5.8.1) [source] [64-bit] [rq:1] [async-threads:5] [hipe] [kernel-poll:true]
+
+Eshell V5.8.1  (abort with ^G)
+(nitrogen@127.0.0.1)1> Starting Mochiweb Server (b4) on 0.0.0.0:8080, root: './site/static'
+
+===== ALIVE Tue Dec 14 08:50:42 PST 2010
+
+===== ALIVE Tue Dec 14 09:05:42 PST 2010
+
+===== Tue Dec 14 09:15:17 PST 2010
+
+=INFO REPORT==== 14-Dec-2010::09:15:17 ===
+Page not found: "/new"
+
+===== ALIVE Tue Dec 14 09:30:17 PST 2010
+
+=INFO REPORT==== 14-Dec-2010::09:33:28 ===
+Page not found: "/new"
+
+===== Tue Dec 14 09:43:03 PST 2010
+
+=INFO REPORT==== 14-Dec-2010::09:43:03 ===
+{error,error,
+       {case_clause,clear},
+       [{element_grid,to_classes,1},
+        {element_grid,render_element,1},
+        {wf_render_elements,call_element_render,2},
+        {wf_render_elements,render_element,1},
+        {wf_render_elements,render_elements,2},
+        {lists,foldl,3},
+        {wf_render_elements,render_elements,2},
+        {lists,foldl,3}]}
+
+=INFO REPORT==== 14-Dec-2010::09:43:57 ===
+{error,error,
+       {case_clause,clear},
+       [{element_grid,to_classes,1},
+        {element_grid,render_element,1},
+        {wf_render_elements,call_element_render,2},
+        {wf_render_elements,render_element,1},
+        {wf_render_elements,render_elements,2},
+        {lists,foldl,3},
+        {wf_render_elements,render_elements,2},
+        {lists,foldl,3}]}
+
+=INFO REPORT==== 14-Dec-2010::09:44:04 ===
+{error,error,
+       {case_clause,clear},
+       [{element_grid,to_classes,1},
+        {element_grid,render_element,1},
+        {wf_render_elements,call_element_render,2},
+        {wf_render_elements,render_element,1},
+        {wf_render_elements,render_elements,2},
+        {lists,foldl,3},
+        {wf_render_elements,render_elements,2},
+        {lists,foldl,3}]}
+
+=INFO REPORT==== 14-Dec-2010::09:46:31 ===
+{error,error,
+       {case_clause,clear},
+       [{element_grid,to_classes,1},
+        {element_grid,render_element,1},
+        {wf_render_elements,call_element_render,2},
+        {wf_render_elements,render_element,1},
+        {wf_render_elements,render_elements,2},
+        {lists,foldl,3},
+        {wf_render_elements,render_elements,2},
+        {lists,foldl,3}]}
+
+=INFO REPORT==== 14-Dec-2010::09:47:25 ===
+{error,error,
+       {case_clause,clear},
+       [{element_grid,to_classes,1},
+        {element_grid,render_element,1},
+        {wf_render_elements,call_element_render,2},
+        {wf_render_elements,render_element,1},
+        {wf_render_elements,render_elements,2},
+        {lists,foldl,3},
+        {wf_render_elements,render_elements,2},
+        {lists,foldl,3}]}
+
+=INFO REPORT==== 14-Dec-2010::09:47:31 ===
+{error,error,
+       {case_clause,clear},
+       [{element_grid,to_classes,1},
+        {element_grid,render_element,1},
+        {wf_render_elements,call_element_render,2},
+        {wf_render_elements,render_element,1},
+        {wf_render_elements,render_elements,2},
+        {lists,foldl,3},
+        {wf_render_elements,render_elements,2},
+        {lists,foldl,3}]}
+
+===== ALIVE Tue Dec 14 10:02:31 PST 2010
+
+===== ALIVE Tue Dec 14 10:17:32 PST 2010
+
+===== ALIVE Tue Dec 14 10:32:32 PST 2010
+
+===== ALIVE Tue Dec 14 10:47:32 PST 2010
+
+===== ALIVE Tue Dec 14 11:02:32 PST 2010
+
+===== Tue Dec 14 11:12:02 PST 2010
+
+=INFO REPORT==== 14-Dec-2010::11:12:02 ===
+{error,error,
+       {case_clause,clear},
+       [{element_grid,to_classes,1},
+        {element_grid,render_element,1},
+        {wf_render_elements,call_element_render,2},
+        {wf_render_elements,render_element,1},
+        {wf_render_elements,render_elements,2},
+        {lists,foldl,3},
+        {wf_render_elements,render_elements,2},
+        {lists,foldl,3}]}
+
+=INFO REPORT==== 14-Dec-2010::11:12:17 ===
+{error,error,
+       {case_clause,clear},
+       [{element_grid,to_classes,1},
+        {element_grid,render_element,1},
+        {wf_render_elements,call_element_render,2},
+        {wf_render_elements,render_element,1},
+        {wf_render_elements,render_elements,2},
+        {lists,foldl,3},
+        {wf_render_elements,render_elements,2},
+        {lists,foldl,3}]}
+
+===== Tue Dec 14 11:17:30 PST 2010
+
+=INFO REPORT==== 14-Dec-2010::11:17:30 ===
+{error,error,
+       {badrecord,grid_clear},
+       [{dashboard,body,0},
+        {element_function,call_next_function,1},
+        {wf_render_elements,call_element_render,2},
+        {wf_render_elements,render_element,1},
+        {wf_render_elements,render_elements,2},
+        {lists,foldl,3},
+        {wf_render_elements,render_elements,2},
+        {wf_render_elements,call_element_render,2}]}
+
+=INFO REPORT==== 14-Dec-2010::11:19:03 ===
+{error,error,
+       {badrecord,grid_clear},
+       [{dashboard,body,0},
+        {element_function,call_next_function,1},
+        {wf_render_elements,call_element_render,2},
+        {wf_render_elements,render_element,1},
+        {wf_render_elements,render_elements,2},
+        {lists,foldl,3},
+        {wf_render_elements,render_elements,2},
+        {wf_render_elements,call_element_render,2}]}
+
+=INFO REPORT==== 14-Dec-2010::11:19:05 ===
+{error,error,
+       {badrecord,grid_clear},
+       [{dashboard,body,0},
+        {element_function,call_next_function,1},
+        {wf_render_elements,call_element_render,2},
+        {wf_render_elements,render_element,1},
+        {wf_render_elements,render_elements,2},
+        {lists,foldl,3},
+        {wf_render_elements,render_elements,2},
+        {wf_render_elements,call_element_render,2}]}
+
+===== ALIVE Tue Dec 14 11:34:05 PST 2010
+
+===== Tue Dec 14 11:44:29 PST 2010
+
+=INFO REPORT==== 14-Dec-2010::11:44:29 ===
+Page not found: "/user/profile"
+
+=INFO REPORT==== 14-Dec-2010::11:48:59 ===
+Page not found: "/user/notify"
+
+===== Tue Dec 14 12:03:32 PST 2010
+
+=INFO REPORT==== 14-Dec-2010::12:03:32 ===
+{error,error,badarg,
+       [{erlang,'++',[undefined,")"]},
+        {dashboard,settings,0},
+        {wf_handler,call,3},
+        {dashboard,body,0},
+        {element_function,call_next_function,1},
+        {wf_render_elements,call_element_render,2},
+        {wf_render_elements,render_element,1},
+        {wf_render_elements,render_elements,2}]}
+
+=INFO REPORT==== 14-Dec-2010::12:03:40 ===
+{error,error,badarg,
+       [{erlang,'++',[undefined,")"]},
+        {dashboard,settings,0},
+        {wf_handler,call,3},
+        {dashboard,body,0},
+        {element_function,call_next_function,1},
+        {wf_render_elements,call_element_render,2},
+        {wf_render_elements,render_element,1},
+        {wf_render_elements,render_elements,2}]}
+
+===== ALIVE Tue Dec 14 12:18:41 PST 2010
+
+=INFO REPORT==== 14-Dec-2010::12:22:00 ===
+{error,error,undef,
+       [{dashboard,inplace_textbox_event,[undefined,"Make laundry"]},
+        {element_inplace_textbox,event,1},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 14-Dec-2010::12:22:01 ===
+{error,error,undef,
+       [{dashboard,inplace_textbox_event,[undefined,"Make laundry"]},
+        {element_inplace_textbox,event,1},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 14-Dec-2010::12:22:02 ===
+{error,error,undef,
+       [{dashboard,inplace_textbox_event,[undefined,"Make laundry"]},
+        {element_inplace_textbox,event,1},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 14-Dec-2010::12:22:02 ===
+{error,error,undef,
+       [{dashboard,inplace_textbox_event,[undefined,"Make laundry"]},
+        {element_inplace_textbox,event,1},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 14-Dec-2010::12:22:02 ===
+{error,error,undef,
+       [{dashboard,inplace_textbox_event,[undefined,"Make laundry"]},
+        {element_inplace_textbox,event,1},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 14-Dec-2010::12:22:03 ===
+{error,error,undef,
+       [{dashboard,inplace_textbox_event,[undefined,"Make laundry"]},
+        {element_inplace_textbox,event,1},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 14-Dec-2010::12:22:03 ===
+{error,error,undef,
+       [{dashboard,inplace_textbox_event,[undefined,"Make laundry"]},
+        {element_inplace_textbox,event,1},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 14-Dec-2010::12:22:03 ===
+{error,error,undef,
+       [{dashboard,inplace_textbox_event,[undefined,"Make laundry"]},
+        {element_inplace_textbox,event,1},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 14-Dec-2010::12:22:04 ===
+{error,error,undef,
+       [{dashboard,inplace_textbox_event,[undefined,"Make laundry"]},
+        {element_inplace_textbox,event,1},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 14-Dec-2010::12:22:04 ===
+{error,error,undef,
+       [{dashboard,inplace_textbox_event,[undefined,"Make laundry"]},
+        {element_inplace_textbox,event,1},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 14-Dec-2010::12:22:05 ===
+{error,error,undef,
+       [{dashboard,inplace_textbox_event,[undefined,"Make laundry"]},
+        {element_inplace_textbox,event,1},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 14-Dec-2010::12:22:05 ===
+{error,error,undef,
+       [{dashboard,inplace_textbox_event,[undefined,"Make laundry"]},
+        {element_inplace_textbox,event,1},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 14-Dec-2010::12:22:05 ===
+{error,error,undef,
+       [{dashboard,inplace_textbox_event,[undefined,"Make laundry"]},
+        {element_inplace_textbox,event,1},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 14-Dec-2010::12:22:06 ===
+{error,error,undef,
+       [{dashboard,inplace_textbox_event,[undefined,"Make laundry"]},
+        {element_inplace_textbox,event,1},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+===== ALIVE Tue Dec 14 12:37:06 PST 2010
+
+===== ALIVE Tue Dec 14 12:52:06 PST 2010
+
+===== Tue Dec 14 12:57:21 PST 2010
+
+=====
+===== LOGGING STARTED Tue Dec 14 21:36:59 PST 2010
+=====
+Exec: /home/hisham/Projects/Erlang/b4/erts-5.8.1/bin/erlexec -boot /home/hisham/Projects/Erlang/b4/releases/2.0.3/nitrogen -embedded  -config /home/hisham/Projects/Erlang/b4/etc/app.config -config /home/hisham/Projects/Erlang/b4/etc/mochiweb.config -args_file /home/hisham/Projects/Erlang/b4/etc/vm.args -- console
+Root: /home/hisham/Projects/Erlang/b4
+Erlang R14B (erts-5.8.1) [source] [64-bit] [rq:1] [async-threads:5] [hipe] [kernel-poll:true]
+
+Eshell V5.8.1  (abort with ^G)
+(nitrogen@127.0.0.1)1> Starting Mochiweb Server (b4) on 0.0.0.0:8080, root: './site/static'
+Erlang R14B (erts-5.8.1) [source] [64-bit] [rq:1] [async-threads:5] [hipe] [kernel-poll:true]
+
+Eshell V5.8.1  (abort with ^G)
+(nitrogen@127.0.0.1)1> Starting Mochiweb Server (b4) on 0.0.0.0:8000, root: './site/static'
+
+===== ALIVE Tue Dec 14 21:52:25 PST 2010
+
+===== ALIVE Tue Dec 14 22:07:25 PST 2010
+
+===== ALIVE Tue Dec 14 22:22:25 PST 2010
+
+===== ALIVE Tue Dec 14 23:55:16 PST 2010
+
+===== ALIVE Wed Dec 15 00:10:20 PST 2010
+
+===== ALIVE Wed Dec 15 00:25:20 PST 2010
+
+===== ALIVE Wed Dec 15 00:40:21 PST 2010
+
+===== ALIVE Wed Dec 15 00:55:21 PST 2010
+
+===== ALIVE Wed Dec 15 01:10:21 PST 2010
+
+===== ALIVE Wed Dec 15 01:25:21 PST 2010
+
+===== ALIVE Wed Dec 15 01:40:21 PST 2010
+
+===== ALIVE Wed Dec 15 01:55:21 PST 2010
+
+===== ALIVE Wed Dec 15 02:10:21 PST 2010
+
+=INFO REPORT==== 15-Dec-2010::02:11:22 ===
+{error,error,badarg,
+       [{erlang,'++',[undefined,")"]},
+        {dashboard,settings,0},
+        {wf_handler,call,3},
+        {dashboard,body,0},
+        {element_function,call_next_function,1},
+        {wf_render_elements,call_element_render,2},
+        {wf_render_elements,render_element,1},
+        {wf_render_elements,render_elements,2}]}
+
+=INFO REPORT==== 15-Dec-2010::02:12:02 ===
+{error,error,badarg,
+       [{erlang,'++',[undefined,")"]},
+        {dashboard,settings,0},
+        {wf_handler,call,3},
+        {dashboard,body,0},
+        {element_function,call_next_function,1},
+        {wf_render_elements,call_element_render,2},
+        {wf_render_elements,render_element,1},
+        {wf_render_elements,render_elements,2}]}
+
+=INFO REPORT==== 15-Dec-2010::02:12:05 ===
+{error,error,badarg,
+       [{erlang,'++',[undefined,")"]},
+        {dashboard,settings,0},
+        {wf_handler,call,3},
+        {dashboard,body,0},
+        {element_function,call_next_function,1},
+        {wf_render_elements,call_element_render,2},
+        {wf_render_elements,render_element,1},
+        {wf_render_elements,render_elements,2}]}
+
+=INFO REPORT==== 15-Dec-2010::02:12:06 ===
+{error,error,badarg,
+       [{erlang,'++',[undefined,")"]},
+        {dashboard,settings,0},
+        {wf_handler,call,3},
+        {dashboard,body,0},
+        {element_function,call_next_function,1},
+        {wf_render_elements,call_element_render,2},
+        {wf_render_elements,render_element,1},
+        {wf_render_elements,render_elements,2}]}
+
+=INFO REPORT==== 15-Dec-2010::02:12:53 ===
+{error,error,badarg,
+       [{erlang,'++',[undefined,")"]},
+        {dashboard,settings,0},
+        {wf_handler,call,3},
+        {dashboard,body,0},
+        {element_function,call_next_function,1},
+        {wf_render_elements,call_element_render,2},
+        {wf_render_elements,render_element,1},
+        {wf_render_elements,render_elements,2}]}
+
+=INFO REPORT==== 15-Dec-2010::02:12:55 ===
+{error,error,badarg,
+       [{erlang,'++',[undefined,")"]},
+        {dashboard,settings,0},
+        {wf_handler,call,3},
+        {dashboard,body,0},
+        {element_function,call_next_function,1},
+        {wf_render_elements,call_element_render,2},
+        {wf_render_elements,render_element,1},
+        {wf_render_elements,render_elements,2}]}
+
+===== ALIVE Wed Dec 15 02:27:55 PST 2010
+
+=INFO REPORT==== 15-Dec-2010::02:30:26 ===
+{error,error,
+       {badrecord,list},
+       [{dashboard,content,0},
+        {dashboard,body,0},
+        {element_function,call_next_function,1},
+        {wf_render_elements,call_element_render,2},
+        {wf_render_elements,render_element,1},
+        {wf_render_elements,render_elements,2},
+        {lists,foldl,3},
+        {wf_render_elements,render_elements,2}]}
+
+=INFO REPORT==== 15-Dec-2010::02:34:57 ===
+{error,error,badarg,
+       [{erlang,setelement,
+                [undefined,
+                 {span,is_element,element_span,doneTasks,undefined,undefined,
+                       true,[],[],[],true},
+                 1]},
+        {element_bind,replace_field,4},
+        {lists,foldl,3},
+        {element_bind,apply_bindings,2},
+        {element_bind,'-apply_bindings/2-lc$^0/1-0-',2},
+        {element_bind,'-apply_bindings/2-lc$^0/1-0-',2},
+        {element_bind,'-apply_bindings/2-fun-1-',5},
+        {lists,foldl,3}]}
+
+=INFO REPORT==== 15-Dec-2010::02:35:33 ===
+{error,error,badarg,
+       [{erlang,setelement,
+                [undefined,
+                 {span,is_element,element_span,doneTasks,undefined,undefined,
+                       true,[],[],[],true},
+                 1]},
+        {element_bind,replace_field,4},
+        {lists,foldl,3},
+        {element_bind,apply_bindings,2},
+        {element_bind,'-apply_bindings/2-lc$^0/1-0-',2},
+        {element_bind,'-apply_bindings/2-lc$^0/1-0-',2},
+        {element_bind,bind,5},
+        {element_bind,render_element,1}]}
+
+=INFO REPORT==== 15-Dec-2010::02:35:35 ===
+{error,error,badarg,
+       [{erlang,setelement,
+                [undefined,
+                 {span,is_element,element_span,doneTasks,undefined,undefined,
+                       true,[],[],[],true},
+                 1]},
+        {element_bind,replace_field,4},
+        {lists,foldl,3},
+        {element_bind,apply_bindings,2},
+        {element_bind,'-apply_bindings/2-lc$^0/1-0-',2},
+        {element_bind,'-apply_bindings/2-lc$^0/1-0-',2},
+        {element_bind,bind,5},
+        {element_bind,render_element,1}]}
+
+=INFO REPORT==== 15-Dec-2010::02:35:41 ===
+{error,error,badarg,
+       [{erlang,setelement,
+                [undefined,
+                 {span,is_element,element_span,doneTasks,undefined,undefined,
+                       true,[],[],[],true},
+                 1]},
+        {element_bind,replace_field,4},
+        {lists,foldl,3},
+        {element_bind,apply_bindings,2},
+        {element_bind,'-apply_bindings/2-lc$^0/1-0-',2},
+        {element_bind,'-apply_bindings/2-lc$^0/1-0-',2},
+        {element_bind,bind,5},
+        {element_bind,render_element,1}]}
+
+===== Wed Dec 15 02:43:08 PST 2010
+
+=INFO REPORT==== 15-Dec-2010::02:43:08 ===
+{error,error,badarg,
+       [{erlang,setelement,
+                [undefined,
+                 {span,is_element,element_span,doneTasks,undefined,undefined,
+                       true,zminline,[],[],true},
+                 1]},
+        {element_bind,replace_field,4},
+        {lists,foldl,3},
+        {element_bind,apply_bindings,2},
+        {element_bind,'-apply_bindings/2-lc$^0/1-0-',2},
+        {element_bind,'-apply_bindings/2-lc$^0/1-0-',2},
+        {element_bind,'-apply_bindings/2-fun-1-',5},
+        {lists,foldl,3}]}
+
+===== Wed Dec 15 02:56:10 PST 2010
+
+=INFO REPORT==== 15-Dec-2010::02:56:10 ===
+{error,error,badarg,
+       [{erlang,'++',[undefined,")"]},
+        {dashboard,settings,0},
+        {wf_handler,call,3},
+        {dashboard,body,0},
+        {element_function,call_next_function,1},
+        {wf_render_elements,call_element_render,2},
+        {wf_render_elements,render_element,1},
+        {wf_render_elements,render_elements,2}]}
+
+===== Wed Dec 15 03:08:29 PST 2010
+
+=INFO REPORT==== 15-Dec-2010::03:08:29 ===
+{error,exit,normal,
+       [{mochiweb_request,send,2},
+        {mochiweb_io,iodevice_foldl,4},
+        {mochiweb_io,iodevice_stream,3},
+        {mochiweb_request,respond,2},
+        {mochiweb_request,maybe_serve_file,3},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::03:08:29 ===
+{error,exit,normal,
+       [{mochiweb_request,send,2},
+        {mochiweb_io,iodevice_foldl,4},
+        {mochiweb_io,iodevice_stream,3},
+        {mochiweb_request,respond,2},
+        {mochiweb_request,maybe_serve_file,3},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::03:08:30 ===
+{error,exit,normal,
+       [{mochiweb_request,send,2},
+        {mochiweb_io,iodevice_foldl,4},
+        {mochiweb_io,iodevice_stream,3},
+        {mochiweb_request,respond,2},
+        {mochiweb_request,maybe_serve_file,3},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::03:08:30 ===
+{error,exit,normal,
+       [{mochiweb_request,send,2},
+        {mochiweb_io,iodevice_foldl,4},
+        {mochiweb_io,iodevice_stream,3},
+        {mochiweb_request,respond,2},
+        {mochiweb_request,maybe_serve_file,3},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+===== ALIVE Wed Dec 15 03:23:30 PST 2010
+
+===== ALIVE Wed Dec 15 03:38:30 PST 2010
+
+===== Wed Dec 15 03:49:02 PST 2010
+
+=INFO REPORT==== 15-Dec-2010::03:49:02 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:49:03 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:49:03 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:49:04 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:51:18 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:51:19 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:51:19 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:51:20 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:51:23 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:52:10 ===
+{error,error,badarg,
+       [{erlang,iolist_size,
+                [[[["<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <title>b4i4get - ",
+                    ["Hello from dashboard.erl!"],
+                    "</title>\n  <script src='/nitrogen/jquery.js' type='text/javascript' charset='utf-8'></script>\n  <script src='/nitrogen/jquery-ui.js' type='text/javascript' charset='utf-8'></script>\n<!--     <script type=\"text/javascript\" src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js\"></script> -->\n<!--     <script type=\"text/javascript\" src=\"http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js\"></script> -->\n  <script src='/nitrogen/livevalidation.js' type='text/javascript' charset='utf-8'></script>\n  <script src='/nitrogen/nitrogen.js' type='text/javascript' charset='utf-8'></script>\n  <script src='/nitrogen/bert.js' type='text/javascript' charset='utf-8'></script>\n  <link rel=\"stylesheet\" href=\"/nitrogen/jquery-ui/jquery.ui.all.css\" type=\"text/css\" media=\"screen\" charset=\"utf-8\" />\n<!--     <link rel=\"stylesheet\" href=\"http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/smoothness/jquery-ui.css\" type=\"text/css\" media=\"screen\" charset=\"utf-8\" /> -->\n  <link rel=\"stylesheet\" href=\"/nitrogen/nitrogen.css\" />\n  <link rel=\"stylesheet\" href=\"/css/style.css\" />\n  <link rel=\"shortcut icon\" href=\"/favicon.ico\">\n</head>\n<body>\n",
+                    [[["<","div",
+                       [[" ","class","=\"",
+                         "zmborder wfid_temp449840 container_12 panel","\""]],
+                       ">",
+                       [[["<","div",
+                          [[" ","class","=\"",
+                            "grid_10 alpha omega prefix_1 suffix_1 panel",
+                            "\""]],
+                          ">",
+                          [["<","div",
+                            [[" ","class","=\"",
+                              "wfid_temp449904 grid wfid_temp449904 panel",
+                              "\""]],
+                            ">",
+                            [[["<","div",
+                               [[" ","class","=\"","wfid_temp449985 panel",
+                                 "\""],
+                                [" ","style","=\"",
+                                 "margin: 0px; display: block;","\""]],
+                               ">",
+                               [[["<","img",
+                                  [[" ","class","=\"",
+                                    "zmpad wfid_temp450012 image","\""],
+                                   [" ","src","=\"","/images/logo.png","\""]],
+                                  "/>"]],
+                                [[["<","div",
+                                   [[" ","class","=\"",
+                                     "flash_container wfid_temp450084 wfid_flash panel",
+                                     "\""]],
+                                   ">","</","div",">"]]]],
+                               "</","div",">"]]],
+                            "</","div",">"]],
+                          "</","div",">"]],
+                        ["<div class='clear'></div>\n"],
+                        [["<","div",
+                          [[" ","class","=\"",
+                            "grid_5 alpha prefix_1 suffix_1 panel","\""]],
+                          ">",
+                          [["<","div",
+                            [[" ","class","=\"",
+                              "wfid_temp450141 grid wfid_temp450141 panel",
+                              "\""]],
+                            ">",
+                            [[["<","div",
+                               [[" ","class","=\"",
+                                 "zmtodo wfid_temp450286 panel","\""],
+                                [" ","style","=\"","margin: 20px 0px;","\""]],
+                               ">",
+                               [[["<","h2",
+                                  [[" ","class","=\"","wfid_temp450316 h2",
+                                    "\""]],
+                                  ">","My ToDo Lists","</","h2",">"]],
+                                [["<","input",
+                                  [[" ","type","=\"","button","\""],
+                                   [" ","class","=\"",
+                                    "wfid_temp450346 button","\""],
+                                   [" ","value","=\"","New ToDo list","\""]],
+                                  "/>"]],
+                                [["<","hr",
+                                  [[" ","size","=\"","1","\""],
+                                   [" ","class","=\"","wfid_temp450420 hr",
+                                    "\""]],
+                                  "/>"]],
+                                [["<","ul",
+                                  [[" ","class","=\"",
+                                    "zmtodolist wfid_temp450451 list","\""]],
+                                  ">",
+                                  [[[[[[["<","li",
+                                         [[" ","class","=\"",
+                                           "wfid_temp450677 listitem","\""]],
+                                         ">",
+                                         [[[["<","a",
+                                             [[" ","href","=\"",
+                                               [47,116,111,100,111,47|todoId],
+                                               "\""],
+                                              [" ","class","=\"",
+                                               "wfid_temp450706 wfid_todoText link",
+                                               "\""]],
+                                             ">",
+                                             ["Riyadh Trip"],
+                                             "</","a",">"]],
+                                           [["<","span",
+                                             [[" ","class","=\"",
+                                               "zminline wfid_temp450748 wfid_doneTasks",
+                                               "\""]],
+                                             ">","1","</","span",">"]],
+                                           [["<","span",
+                                             [[" ","class","=\"",
+                                               "zminline wfid_temp450785",
+                                               "\""]],
+                                             ">"," pending(s), out of ","</",
+                                             "span",">"]],
+                                           [["<","span",
+                                             [[" ","class","=\"",
+                                               "zminline wfid_temp450815 wfid_totalTasks",
+                                               "\""]],
+                                             ">","2","</","span",">"]],
+                                           [["<","span",
+                                             [[" ","class","=\"",
+                                               "zminline wfid_temp450873",
+                                               "\""]],
+                                             ">"," total","</","span",">"]]]],
+                                         "</","li",">"]],
+                                       [["<","hr",
+                                         [[" ","size","=\"","1","\""],
+                                          [" ","class","=\"",
+                                           "wfid_temp450906 hr","\""]],
+                                         "/>"]]]],
+                                     [[[["<","li",
+                                         [[" ","class","=\"",
+                                           "wfid_temp450944 listitem","\""]],
+                                         ">",
+                                         [[[["<","a",
+                                             [[" ","href","=\"",
+                                               [47,116,111,100,111,47|todoId],
+                                               "\""],
+                                              [" ","class","=\"",
+                                               "wfid_temp450971 wfid_todoText link",
+                                               "\""]],
+                                             ">",
+                                             ["Groceries"],
+                                             "</","a",">"]],
+                                           [["<","span",
+                                             [[" ","class","=\"",
+                                               "zminline wfid_temp451010 wfid_doneTasks",
+                                               "\""]],
+                                             ">","2","</","span",">"]],
+                                           [["<","span",
+                                             [[" ","class","=\"",
+                                               "zminline wfid_temp451092",
+                                               "\""]],
+                                             ">"," pending(s), out of ","</",
+                                             "span",">"]],
+                                           [["<","span",
+                                             [[" ","class","=\"",
+                                               "zminline wfid_temp451128 wfid_totalTasks",
+                                               "\""]],
+                                             ">","5","</","span",">"]],
+                                           [["<","span",
+                                             [[" ","class","=\"",
+                                               "zminline wfid_temp451185",
+                                               "\""]],
+                                             ">"," total","</","span",">"]]]],
+                                         "</","li",">"]],
+                                       [["<","hr",
+                                         [[" ","size","=\"","1","\""],
+                                          [" ","class","=\"",
+                                           "wfid_temp451216 hr","\""]],
+                                         "/>"]]]],
+                                     [[[["<","li",
+                                         [[" ","class","=\"",
+                                           "wfid_temp451290 listitem","\""]],
+                                         ">",
+                                         [[[["<","a",
+                                             [[" ","href","=\"",
+                                               [47,116,111,100,111,47|todoId],
+                                               "\""],
+                                              [" ","class","=\"",
+                                               "wfid_temp451318 wfid_todoText link",
+                                               "\""]],
+                                             ">",
+                                             ["Moving out from apartment"],
+                                             "</","a",">"]],
+                                           [["<","span",
+                                             [[" ","class","=\"",
+                                               "zminline wfid_temp451361 wfid_doneTasks",
+                                               "\""]],
+                                             ">","3","</","span",">"]],
+                                           [["<","span",
+                                             [[" ","class","=\"",
+                                               "zminline wfid_temp451447",
+                                               "\""]],
+                                             ">"," pending(s), out of ","</",
+                                             "span",">"]],
+                                           [["<","span",
+                                             [[" ","class","=\"",
+                                               "zminline wfid_temp451478 wfid_totalTasks",
+                                               "\""]],
+                                             ">","5","</","span",">"]],
+                                           [["<","span",
+                                             [[" ","class","=\"",
+                                               "zminline wfid_temp451515",
+                                               "\""]],
+                                             ">"," total","</","span",">"]]]],
+                                         "</","li",">"]],
+                                       [["<","hr",
+                                         [[" ","size","=\"","1","\""],
+                                          [" ","class","=\"",
+                                           "wfid_temp451560 hr","\""]],
+                                         "/>"]]]]]]],
+                                  "</","ul",">"]]],
+                               "</","div",">"]]],
+                            "</","div",">"]],
+                          "</","div",">"]],
+                        [["<","div",
+                          [[" ","class","=\"","grid_4 omega suffix_1 panel",
+                            "\""]],
+                          ">",
+                          [["<","div",
+                            [[" ","class","=\"",
+                              "wfid_temp451594 grid wfid_temp451594 panel",
+                              "\""]],
+                            ">",
+                            [[["<","div",
+                               [[" ","class","=\"",
+                                 "zmsettings wfid_temp451669 panel","\""]],
+                               ">",
+                               [[["<","h3",
+                                  [[" ","class","=\"","wfid_temp451700 h3",
+                                    "\""]],
+                                  ">","Settings","</","h3",">"]],
+                                [["<","ul",
+                                  [[" ","class","=\"","wfid_temp451729 list",
+                                    "\""]],
+                                  ">",
+                                  [[["<","li",
+                                     [[" ","class","=\"",
+                                       "wfid_temp451755 listitem","\""]],
+                                     ">",
+                                     [[["<","a",
+                                        [[" ","href","=\"","javascript:","\""],
+                                         [" ","class","=\"",
+                                          "wfid_temp451804 link","\""]],
+                                        ">",
+                                        ["logout (hisham)"],
+                                        "</","a",">"]]],
+                                     "</","li",">"]],
+                                   [["<","li",
+                                     [[" ","class","=\"",
+                                       "wfid_temp451843 listitem","\""]],
+                                     ">",
+                                     [[["<","a",
+                                        [[" ","href","=\"","/user/profile",
+                                          "\""],
+                                         [" ","class","=\"",
+                                          "wfid_temp451872 link","\""]],
+                                        ">",
+                                        ["profile"],
+                                        "</","a",">"]]],
+                                     "</","li",">"]],
+                                   [["<","li",
+                                     [[" ","class","=\"",
+                                       "wfid_temp451905 listitem","\""]],
+                                     ">",
+                                     [[["<","a",
+                                        [[" ","href","=\"","/user/notify",
+                                          "\""],
+                                         [" ","class","=\"",
+                                          "wfid_temp451933 link","\""]],
+                                        ">",
+                                        ["notification"],
+                                        "</","a",">"]]],
+                                     "</","li",">"]]],
+                                  "</","ul",">"]]],
+                               "</","div",">"]]],
+                            "</","div",">"]],
+                          "</","div",">"]],
+                        ["<div class='clear'></div>\n"],
+                        [["<","div",
+                          [[" ","class","=\"",
+                            "grid_10 alpha omega prefix_1 suffix_1 panel",
+                            "\""]],
+                          ">",
+                          [["<","div",
+                            [[" ","class","=\"",
+                              "wfid_temp451981 grid wfid_temp451981 panel",
+                              "\""]],
+                            ">",
+                            [[["<","div",
+                               [[" ","class","=\"","wfid_temp454774 panel",
+                                 "\""],
+                                [" ","style","=\"",
+                                 "padding: 10px 0; font-size: .7em;","\""]],
+                               ">",
+                               [[["<","p",
+                                  [[" ","class","=\"","wfid_temp454803 p",
+                                    "\""]],
+                                  ">",
+                                  ["&copy; 2010 Hisham & Co. All rights reserved"],
+                                  "</","p",">"]]],
+                               "</","div",">"]]],
+                            "</","div",">"]],
+                          "</","div",">"]],
+                        ["<div class='clear'></div>\n"]],
+                       "</","div",">"]]],
+                    "\n<script>\n",
+                    ["Nitrogen.$set_param('pageContext', 'zCYOl4NQAAADqXichZJdToQwFIWvKCbjoDOJPxnXoYnbcAdNaS-0WFpsS-JswMX67rslkeF3Uh4acg7nu_eQikQBQCJSDllDSyTMaI9f_gNuPNbNa3jeXjhsOHUiN9TyikPKTI2-y2273E5QzRXaPsrhLrwVsiT_BocnjgVtlSdzY9PqYEmNvFpHbZUZfX7fcyZqFHJorGHoHLFYSuftccg-684L-ooX5d4yygQOgcdTzakeB322OJ58As30KGjnQk1p9OjXO1k3CsnCiC_lPPVr7Wb6AOquxIVIgiSoI4UKd4bDlbctnhmxlxy1l35U8dBPWVrRjTNr1Gixhx41lePFrWmnxY-a1pKRmR4F7R2y1q7XW1ojXFWJyxwgzXK4fv8Jx-_3HzrDTZ0');\n",
+                     [[],
+                      [[[[],
+                         [[["\nNitrogen.$anchor('.wfid_temp450346', '.wfid_temp450346');",
+                            [["Nitrogen.$observe_event('.wfid_temp450346', '.wfid_temp450346', 'click', function anonymous(event) {"],
+                             ["Nitrogen.$anchor('.wfid_temp450346', '.wfid_temp450346');"],
+                             ["Nitrogen.$queue_event('.wfid_temp450346', '6YQySoNQAAAAbnicy2DKYEth4E0tS80riU_OzytJrShJYeBMSSzOSMpPLEpJYeDISy2Pz8ksBgmX5qWkpmXmpaZkMwjoladlpsSXpOYWmJgaGJuYYRHKYE5iYGDlSWJgC3gFJD6KAQC_wyIA', undefined);"],
+                             [[]],
+                             ["});"]]]]]]],
+                       [[[],
+                         [[["\nNitrogen.$anchor('.wfid_temp451804', '.wfid_temp451804');",
+                            [["Nitrogen.$observe_event('.wfid_temp451804', '.wfid_temp451804', 'click', function anonymous(event) {"],
+                             ["Nitrogen.$anchor('.wfid_temp451804', '.wfid_temp451804');"],
+                             ["Nitrogen.$queue_event('.wfid_temp451804', 'We_Rr4NQAAAAbHicy2DKYEth4E0tS80riU_OzytJrShJYeBMSSzOSMpPLEpJYWDLyU_PLwUJlualpKZl5qWmZDMI6JWnZabEl6TmFpiYGloYmGARymBOYmBg5UliYAt4BSQ-fQEAbjsiEg', undefined);"],
+                             [[]],
+                             ["});"]]]]]]]],
+                      [[[["\nNitrogen.$anchor('.wfid_temp444697', '.wfid_flash');",
+                          [["Nitrogen.$insert_bottom(\".wfid_temp444697\", \".wfid_flash\", \"\");"],
+                           [[],[]]]]]]],
+                      []]],
+                    "\n</script>\n</body>\n</html>\n"]]]]},
+        {mochiweb_request,respond,2},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::03:52:56 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:52:57 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:52:57 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:52:58 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:52:59 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:53:00 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:53:00 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:53:00 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:53:00 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:53:06 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:54:19 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:54:19 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:54:19 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:54:20 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:54:20 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:54:20 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:54:20 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:54:21 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:54:21 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:54:21 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:54:22 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:54:22 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:54:23 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:54:23 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:54:27 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:58:19 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:58:20 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::03:58:20 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+===== Wed Dec 15 04:11:12 PST 2010
+
+=INFO REPORT==== 15-Dec-2010::04:11:12 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::04:11:12 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::04:11:12 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::04:11:13 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::04:11:13 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::04:11:14 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::04:11:14 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::04:11:15 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::04:11:16 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::04:11:17 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::04:11:17 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::04:11:18 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::04:11:18 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::04:11:19 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::04:11:19 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::04:11:20 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::04:11:21 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+===== Wed Dec 15 04:22:03 PST 2010
+
+=INFO REPORT==== 15-Dec-2010::04:22:03 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::04:22:03 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::04:22:04 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::04:22:04 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::04:22:04 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::04:22:05 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::04:22:06 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[4,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+===== ALIVE Wed Dec 15 07:17:43 PST 2010
+
+=INFO REPORT==== 15-Dec-2010::07:22:05 ===
+{error,error,badarg,
+       [{erlang,'++',[undefined,")"]},
+        {dashboard,settings,0},
+        {wf_handler,call,3},
+        {dashboard,body,0},
+        {element_function,call_next_function,1},
+        {wf_render_elements,call_element_render,2},
+        {wf_render_elements,render_element,1},
+        {wf_render_elements,render_elements,2}]}
+
+=INFO REPORT==== 15-Dec-2010::07:24:03 ===
+{error,error,badarg,
+       [{erlang,'++',[undefined,")"]},
+        {dashboard,settings,0},
+        {wf_handler,call,3},
+        {dashboard,body,0},
+        {element_function,call_next_function,1},
+        {wf_render_elements,call_element_render,2},
+        {wf_render_elements,render_element,1},
+        {wf_render_elements,render_elements,2}]}
+
+===== ALIVE Wed Dec 15 07:39:03 PST 2010
+
+=INFO REPORT==== 15-Dec-2010::07:39:07 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoId]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:39:09 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoId]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:39:09 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoId]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:39:10 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoId]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:39:10 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoId]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:39:49 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoId]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:39:50 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoId]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:39:51 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoId]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:39:51 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoId]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:40:22 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoId]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:40:24 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoId]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:40:24 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoId]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:40:24 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoId]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:40:25 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoId]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:40:44 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoId]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:40:45 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoId]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:40:45 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoId]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:40:46 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoId]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:40:46 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoId]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:40:46 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoId]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+===== Wed Dec 15 07:51:27 PST 2010
+
+=INFO REPORT==== 15-Dec-2010::07:51:27 ===
+{error,error,badarg,
+       [{erlang,setelement,
+                [undefined,
+                 {span,is_element,element_span,doneTasks,undefined,undefined,
+                       true,zminline,[],[],true},
+                 1]},
+        {element_bind,replace_field,4},
+        {lists,foldl,3},
+        {element_bind,apply_bindings,2},
+        {element_bind,'-apply_bindings/2-lc$^0/1-0-',2},
+        {element_bind,'-apply_bindings/2-lc$^0/1-0-',2},
+        {element_bind,'-apply_bindings/2-fun-1-',5},
+        {lists,foldl,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:54:37 ===
+{error,error,badarg,
+       [{erlang,setelement,
+                [undefined,
+                 {span,is_element,element_span,totalTasks,undefined,undefined,
+                       true,zminline,[],[],true},
+                 2]},
+        {element_bind,replace_field,4},
+        {lists,foldl,3},
+        {element_bind,apply_bindings,2},
+        {element_bind,'-apply_bindings/2-lc$^0/1-0-',2},
+        {element_bind,'-apply_bindings/2-lc$^0/1-0-',2},
+        {element_bind,'-apply_bindings/2-fun-1-',5},
+        {lists,foldl,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:54:51 ===
+{error,error,badarg,
+       [{erlang,setelement,
+                [undefined,
+                 {span,is_element,element_span,totalTasks,undefined,undefined,
+                       true,zminline,[],[],true},
+                 2]},
+        {element_bind,replace_field,4},
+        {lists,foldl,3},
+        {element_bind,apply_bindings,2},
+        {element_bind,'-apply_bindings/2-lc$^0/1-0-',2},
+        {element_bind,'-apply_bindings/2-lc$^0/1-0-',2},
+        {element_bind,'-apply_bindings/2-fun-1-',5},
+        {lists,foldl,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:57:13 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoPostback]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:57:14 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoPostback]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:57:15 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoPostback]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:57:16 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoPostback]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:57:16 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoPostback]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:57:16 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoPostback]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:57:16 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoPostback]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:57:17 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoPostback]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:57:17 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoPostback]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:57:17 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoPostback]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::07:59:47 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoPostback]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::08:01:17 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoPostback]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::08:01:18 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoPostback]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::08:01:18 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoPostback]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::08:01:18 ===
+{error,error,function_clause,
+       [{dashboard,event,[todoPostback]},
+        {wf_core,run_catched,0},
+        {wf_core,run,0},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 15-Dec-2010::08:05:20 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:05:21 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:05:21 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:05:22 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:05:23 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:05:24 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:05:24 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:05:25 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:05:25 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:05:25 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:05:26 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:05:26 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:06:14 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:06:16 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:06:16 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:06:16 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:06:17 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:06:17 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:06:17 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:06:17 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:06:18 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:06:18 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:06:18 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:06:19 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:06:19 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:06:36 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:06:37 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:06:38 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:06:38 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:06:39 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:06:39 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:06:39 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:06:39 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:06:40 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:06:40 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:06:40 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}
+
+=INFO REPORT==== 15-Dec-2010::08:06:40 ===
+{error,error,function_clause,
+       [{lists,do_flatten,[todoId,"</div></div></div>"]},
+        {lists,do_flatten,2},
+        {lists,do_flatten,2},
+        {wf_convert,js_escape,1},
+        {action_update,render_action,1},
+        {wf_render_actions,call_action_render,5},
+        {wf_render_actions,inner_render_action,4},
+        {wf_render_actions,inner_render_actions,4}]}

@@ -1,0 +1,8 @@
+run_erl [1747] Mon Feb  7 01:29:20 2011
+Args before exec of shell:
+run_erl [1747] Mon Feb  7 01:29:20 2011
+argv[0] = sh
+run_erl [1747] Mon Feb  7 01:29:20 2011
+argv[1] = -c
+run_erl [1747] Mon Feb  7 01:29:20 2011
+argv[2] = exec /home/hisham/Projects/Erlang/b4/bin/nitrogen console
